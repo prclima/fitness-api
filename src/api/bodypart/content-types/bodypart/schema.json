@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bodyparts",
+  "info": {
+    "singularName": "bodypart",
+    "pluralName": "bodyparts",
+    "displayName": "Bodyparts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "part_name": {
+      "type": "string",
+      "required": true,
+      "default": "All"
+    }
+  }
+}
